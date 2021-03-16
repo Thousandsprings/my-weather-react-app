@@ -9,6 +9,7 @@ export default function App() {
         <a
           href="https://www.linkedin.com/in/chiharu-suzuki-915130201/"
           target="_blank"
+          rel="noreferrer"
         >
           Chiharu Suzuki(linkedin)
         </a>{" "}
@@ -16,6 +17,7 @@ export default function App() {
         <a
           href="https://github.com/Thousandsprings/my-weather-react-app"
           target="_blank"
+          rel="noreferrer"
         >
           open-sourced on GitHub
         </a>{" "}
