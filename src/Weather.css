@@ -4,3 +4,10 @@
 .Weather .info {
   color: blue;
 }
+.Weather ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.Weather form {
+  margin: 0 auto;
+}
