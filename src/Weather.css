@@ -1,0 +1,6 @@
+.Weather {
+  border: solid 1px brown;
+}
+.Weather .info {
+  color: blue;
+}
