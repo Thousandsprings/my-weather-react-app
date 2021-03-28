@@ -1,13 +1,53 @@
 .Weather {
-  border: solid 1px brown;
+  padding: 15px;
+  border: solid 1px #76befb;
+  border-radius: 13px;
 }
-.Weather .info {
-  color: blue;
+.Weather div {
+  color: rgb(152, 152, 165);
+}
+.Weather .Top {
+  display: inline-flex;
+}
+.Weather .Search {
+  text-align: center;
+  font-size: 20px;
+  border-color: #76befb;
+}
+.Weather .btn {
+  display: block;
+  min-width: 90px;
+  margin: 2px 3px;
+  color: #49a8fb;
+  background-image: linear-gradient(#d2efff 0%, #76befb 100%);
+  border-radius: 10%;
+  text-align: center;
+  overflow: hidden;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+  transition: 0.3s;
+}
+
+.Weather .btn:hover {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.28);
 }
 .Weather ul {
   list-style: none;
-  padding-left: 0px;
 }
-.Weather form {
-  margin: 0 auto;
+.Weather h1 {
+  padding-top: 20px;
+}
+.Weather .Firstinfo {
+  line-height: 50px;
+  padding-left: 0;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+.Weather .Extrainfo {
+  padding-left: 0;
+  color: rgb(152, 152, 165);
+  margin-top: 20px;
 }
