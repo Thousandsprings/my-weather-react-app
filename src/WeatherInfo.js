@@ -19,13 +19,15 @@ export default function WeatherInfo(props) {
             </li>
           </ul>
         </h3>
+        <h6>
+          <ul className="Extrainfo">
+            <li>Wind: {props.data.windspeed}km/h</li>
+            <li>Humidity: {props.data.humidity}%</li>
+          </ul>
+        </h6>
       </div>
 
       <div className="col-md-6">
-        <ul className="Extrainfo">
-          <li>{props.data.windspeed}km/h</li>
-          <li>{props.data.humidity}%</li>
-        </ul>
         <Weathericon icon={props.data.weatherIcon} />
         <h3 className="text-capitalize">{props.data.weatherDescription}</h3>
       </div>
