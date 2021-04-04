@@ -13,7 +13,7 @@ export default function WeatherInfo(props) {
           <li>
             <FormattedDate date={props.data.date} />
           </li>
-          <li>Local Time</li>
+          {/* <li>Local Time</li> */}
           <WeatehrTemperature celsius={props.data.temperature} />
         </ul>
 
