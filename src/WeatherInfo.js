@@ -3,6 +3,8 @@ import FormattedDate from "./FormattedDate";
 import Weathericon from "./Weathericon";
 import WeatehrTemperature from "./WeatehrTemperature";
 
+import "./Weatherinfo.css";
+
 export default function WeatherInfo(props) {
   return (
     <div className="row">
@@ -24,8 +26,10 @@ export default function WeatherInfo(props) {
       </div>
 
       <div className="col-md-6">
-        <Weathericon icon={props.data.weatherIcon} />
-        <h3 className="text-capitalize">{props.data.weatherDescription}</h3>
+        <div calssName="Weathericon">
+          <Weathericon icon={props.data.weatherIcon} size={90} />
+          <h3 className="text-capitalize">{props.data.weatherDescription}</h3>
+        </div>
       </div>
     </div>
   );
