@@ -6,6 +6,7 @@ import WeatehrTemperature from "./WeatehrTemperature";
 import "./Weatherinfo.css";
 
 export default function WeatherInfo(props) {
+  console.log(props.data.date);
   return (
     <div className="row">
       <div className="col-md-6 justify-content-center Info">
