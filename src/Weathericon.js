@@ -1,8 +1,6 @@
 import React from "react";
 import ReactAnimatedWeather from "react-animated-weather";
 
-import "./Weathericon.css";
-
 export default function Weathericon(props) {
   const icon = {
     "01d": "CLEAR_DAY",

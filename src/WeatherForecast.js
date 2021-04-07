@@ -15,7 +15,21 @@ export default function WeatehrForecast(props) {
 
   if (loaded) {
     console.log(forecast);
-    return <ForecastDay data={forecast[0]} />;
+    return (
+      <div className="WeatherForecast">
+        <div className="row">
+          {forecast.map(function (dailyForecast, index) {
+            if (index < 5) {
+              return (
+                <div className="col" key={index}>
+                  <ForecastDay data={dailyForecast} />
+                </div>
+              );
+            }
+          })}
+        </div>
+      </div>
+    );
   } else {
     let apiKey = `ac021ab78099db15d109c8b194975aa6`;
     let lon = props.coord.lon;

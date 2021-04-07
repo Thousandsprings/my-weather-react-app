@@ -1,6 +1,10 @@
-.Forecast-day {
-  color: crimson;
-}
 .WeatherForecast-min-temp {
-  color: red;
+  color: rgba(136, 134, 134, 0.521);
+}
+
+.Forecast-day {
+  margin-bottom: 0;
+}
+.row {
+  margin-top: 50px;
 }

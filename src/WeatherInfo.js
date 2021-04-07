@@ -1,14 +1,13 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import Weathericon from "./Weathericon";
-import WeatehrTemperature from "./WeatehrTemperature";
-
-import "./Weatherinfo.css";
+import WeatehrTemperature from "./WeatherTemperature";
+import "./WeatherInfo.css";
 
 export default function WeatherInfo(props) {
   console.log(props.data.date);
   return (
-    <div className="row">
+    <div className="row WeatherInfo">
       <div className="col-md-6 justify-content-center Info">
         <h1>{props.data.city}</h1>
 
