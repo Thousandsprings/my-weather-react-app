@@ -1,7 +1,10 @@
 .Weather {
+  max-width: 600px;
+  margin: 0 auto;
   padding: 15px;
   border: solid 1px #76befb;
   border-radius: 13px;
+  background-color: white;
 }
 
 .Weather div {
