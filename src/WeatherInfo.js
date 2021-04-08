@@ -5,7 +5,7 @@ import WeatehrTemperature from "./WeatherTemperature";
 import "./WeatherInfo.css";
 
 export default function WeatherInfo(props) {
-  console.log(props.data.date);
+  // console.log(props.data.date); show the date
   return (
     <div className="row WeatherInfo">
       <div className="col-md-6 justify-content-center Info">
@@ -26,7 +26,7 @@ export default function WeatherInfo(props) {
       </div>
 
       <div className="col-md-6">
-        <div calssName="Weathericon">
+        <div>
           <Weathericon icon={props.data.weatherIcon} size={90} />
           <h3 className="text-capitalize">{props.data.weatherDescription}</h3>
         </div>
