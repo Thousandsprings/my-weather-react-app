@@ -12,6 +12,7 @@ export default function WeatehrForecast(props) {
   useEffect(() => {
     setLoaded(false);
   }, [props.coord]);
+
   function handleResponse(response) {
     setForecast(response.data.daily);
     setLoaded(true);

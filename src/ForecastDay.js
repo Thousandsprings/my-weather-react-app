@@ -4,7 +4,6 @@ import Weathericon from "./Weathericon";
 import "./ForecastDay.css";
 
 export default function ForecastDay(props) {
-  console.log(props);
   function maxTemperature() {
     let max = Math.round(props.data.temp.max);
     return `${max}℃`;
