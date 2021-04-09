@@ -25,7 +25,11 @@ export default function App() {
             open-sourced on GitHub
           </a>{" "}
           and hosted on{" "}
-          <a href="https://upbeat-hypatia-5afe7e.netlify.app/" target="_">
+          <a
+            href="https://upbeat-hypatia-5afe7e.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Netlify
           </a>
         </footer>

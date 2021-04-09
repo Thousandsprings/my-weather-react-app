@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./ForemattedDate.css";
+
 export default function FormattedDate(props) {
   let days = [
     "Sunday",
@@ -21,8 +23,11 @@ export default function FormattedDate(props) {
     hour = `0${hour}`;
   }
   return (
-    <div>
-      {day} {hour}:{minutes}
+    <div className="FormattedDate">
+      <p className="date">
+        {day} {hour}:{minutes}
+      </p>
+      <p className="small">(at your location)</p>
     </div>
   );
 }

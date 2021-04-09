@@ -25,9 +25,10 @@ export default function ForecastDay(props) {
       "Thursday",
       "Friday",
       "Saturday",
+      "Sunday",
     ];
 
-    return days[day];
+    return days[day + 1];
   }
   return (
     <div className="ForecastDay">

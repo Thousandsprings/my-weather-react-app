@@ -41,11 +41,8 @@
 .Weather ul {
   list-style: none;
 }
-.Weather h1 {
-  padding-top: 20px;
-}
+
 .Weather .Firstinfo {
-  line-height: 50px;
   padding-left: 0;
   padding-top: 10px;
   margin-bottom: 0px;
