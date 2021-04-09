@@ -49,19 +49,18 @@ export default function Weather(props) {
             className="Search"
             onChange={handleCityChange}
           ></input>
+          <button type="submit" className="btn">
+            Search
+          </button>
 
-          {
-            <button type="submit" className="btn">
-              Search
-            </button>
-            /*<button
+          {/* <button
             type="submit"
             className="btn"
             onSubmit={handleCurrentLocationSubmit}
           >
             Current Location
-          </button> */
-          }
+          </button>{" "}
+           */}
         </form>
         <WeatherInfo data={weatherData} />
         <WeatherForecast coord={weatherData.coord} />
